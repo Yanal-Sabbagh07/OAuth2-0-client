@@ -15,7 +15,7 @@ export default function NavBar() {
       })
       .then((res: AxiosResponse) => {
         if (res.data === "done") {
-          window.location.href = "/login";
+          window.location.href = "/";
         }
       });
   };
